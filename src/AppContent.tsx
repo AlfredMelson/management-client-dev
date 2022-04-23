@@ -20,7 +20,7 @@ export default function AppContent() {
 
   const [trpcClient] = useState(() =>
     trpc.createClient({
-      url: 'http://localhost:8080/trpc'
+      url: 'https://emplmanage.eu-central-1.elasticbeanstalk.com//trpc'
     })
   )
 
