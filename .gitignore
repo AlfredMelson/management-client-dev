@@ -1,10 +1,24 @@
+# vscode
+.vscode
+
+# network testing
+/network
+
 # dependencies
 /node_modules
 
 # production
-/dist
+/build
 
-# specific files
+# .env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# package manager
+yarn-debug.log*
+yarn-error.log*
 
 #amplify-do-not-edit-begin
 amplify/\#current-cloud-backend
